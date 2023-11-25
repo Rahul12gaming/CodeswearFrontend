@@ -1,0 +1,91 @@
+.adminUsers
+{
+    width: 80%;
+}
+.usersContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width: 100%;
+    margin: auto;
+}
+.userField
+{
+    margin: 0 20px 0 20px;
+    display: flex;
+    border: 1px solid #fff;
+    height: 5vmax;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.userItems
+{
+    margin: 0 20px 0 20px;
+    display: flex;
+    border: 1px solid #fff;
+    height: 5vmax;
+    align-items: center;
+   
+    justify-content: center;
+}
+.userField>div,
+.userItems>div
+{
+    max-width: 20vmax;
+
+}
+.userField>div>span
+{
+    color: rgb(255, 123, 0);
+}
+.userItems>div>span
+{
+    word-break: break-all;
+   font-size: 14px;
+  
+}
+@media screen and (max-width:720px) {
+    .usersContainer
+    {
+        width: 90%;
+    }
+    .userField
+    {
+        height: auto;
+    }
+    .userItems
+    {
+        height: auto;
+    }
+    
+    .userItems>div>span
+    {
+        
+    font-size: 12px;
+    font-weight: 300;
+    }
+    
+}
+.userItems>div>svg
+{
+    cursor: pointer;
+    margin: auto;   
+    font-size: 1.5rem;
+    color: aqua;
+}
+.userItems>div>select
+{
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid tomato;
+}
+.userItems>div>option>select>button
+{
+    
+}

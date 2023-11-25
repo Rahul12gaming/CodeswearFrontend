@@ -1,0 +1,82 @@
+.myOrders
+{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 90%;
+    margin: 50px auto 50px auto;
+   
+}
+.orderField
+{
+    display: flex;
+    border-bottom: 1px solid black;
+
+}
+.div
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.orderTable
+{
+    display: flex;
+    align-items: center;
+   
+}
+.orderField>div,
+.orderTable>div
+{
+    width: 300px;
+   
+    padding: 20px;
+    
+    height: fit-content;
+    text-align: center;
+    word-break: break-all;
+}
+.id
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    word-break: break-all;
+}
+
+.orderTable>.orderId{
+    display: flex;
+    flex-direction: column;
+    
+}
+.order1
+{
+    font-size: 16px;
+    color: #323232;
+    font-weight: 500;
+
+}
+.order2
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+.order3
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+.order4{
+    color: green;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.viewOrder
+{
+    cursor: pointer;
+    background-color: tomato;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid black;
+}

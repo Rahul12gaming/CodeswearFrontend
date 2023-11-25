@@ -1,0 +1,30 @@
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #323232;
+     
+    
+}
+.sidebar a span
+{
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+}
+.sidebar a
+{
+    text-decoration: none;
+    color: #323232;
+    font-size: 18px;
+}
+.sidebar a:hover
+{
+    color: tomato;
+}
+.sidebar p
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

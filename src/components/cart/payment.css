@@ -1,0 +1,42 @@
+.paymentContainer
+{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #323232;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.paymentContainer>p
+{
+    font-size: 22px;
+    color: black;
+}
+.paymentContainer>div
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:5px;
+    margin-bottom: 10px;
+
+}
+.paymentInput
+{
+    border: 1px solid #323232;
+    width: 100%;
+    padding: 10px;
+    color: black;
+}
+.paymentContainer>input
+{
+    background-color: tomato;
+    color: black;
+    font-size: 18px;
+    font-weight: 700px;
+    border: 1px solid black;
+    justify-content: center;
+}

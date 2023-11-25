@@ -1,0 +1,192 @@
+.login-container
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin:20px auto 20px auto ;
+    border: 1px solid #323232;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px black;
+}
+.signup-container
+{
+  
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin:50px auto 50px auto ;
+    border: 1px solid #323232;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px black;
+    
+
+}
+ .login-title
+{
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 2px;
+    
+    
+}
+.hr
+{
+    width: 150px;
+    height: 4px;
+    margin: auto;
+    background-color: tomato;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.login-container span
+{
+    font-size: 18px;
+    color: tomato;
+    font-family: monospace;
+}
+.signup-container p
+{
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 2px;
+}
+.signup-container span
+{
+    font-size: 18px;
+    color: tomato;
+    font-family: monospace;
+}
+.email
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+input
+{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.password
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+form
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    gap: 10px;
+}
+
+ .login-container button
+{
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signup-btn
+{
+    background-color: #fff;
+    border-radius: 0px;
+    margin-top: 10px;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #323232;
+    color: #323232;
+    font-size: 16px;
+    
+}
+/* .login-container
+{
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dfdddd;
+    border-radius: 10px;
+    box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.4);
+}
+.login-container p
+{
+    font-size: 32px;
+    margin: 5px;
+}
+.login-container span
+{
+    font-size: 20px;
+}
+.forget-container
+{
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dfdddd;
+    border-radius: 10px;
+    box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.4);
+}
+.forget-container p
+{
+    font-size: 26px;
+}
+.reset-container
+{
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #dfdddd;
+    border-radius: 10px;
+    box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.4);
+}
+.reset-container p
+{
+    font-size: 28px;
+}
+@media screen and (max-width:600px) {
+    .forget-container,
+    .login-container,
+    .reset-container,
+    .signup-container
+    {
+        width: 70%;
+    }
+    
+} */
+@media screen and (max-width:720px) {
+    
+    .login-container
+  
+    {
+        width: 70%;
+    }
+    
+    .signup-container
+  
+    {
+        width: 70%;
+    }
+}

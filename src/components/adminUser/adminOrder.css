@@ -1,0 +1,105 @@
+.orderWrapper {
+    width: 80%;
+}
+
+.orderConta {
+    width: 100%;
+    display: flex;
+    margin: 0 auto 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.orderField {
+    margin: 0 20px 0 20px;
+    display: flex;
+    border: 1px solid #fff;
+    height: auto;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.orderItems {
+    margin: 0 20px 0 20px;
+    display: flex;
+    border: 1px solid #fff;
+    height: 5vmax;
+    align-items: center;
+
+    justify-content: center;
+}
+
+.orderField>div,
+.orderItems>div {
+    max-width: 20vmax;
+    
+
+}
+
+.orderField>div>span {
+    color: rgb(255, 123, 0);
+    font-size: 14px;
+}
+
+.orderItems>div>span {
+    word-break: break-all;
+    font-size: 14px;
+
+}
+
+.orderItems>div>button {
+    cursor: pointer;
+    width: 80%;
+    margin: auto;
+    height: auto;
+    border: 1px solid white;
+    background-color: tomato;
+    color: black;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.orderStatus>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orderStatus>div>input {
+    width: 50%;
+    margin: 0px auto 10px auto;
+    border: 1px solid black;
+    outline: none;
+}
+.orderStatus>div>button
+{
+    background-color: tomato;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+@media screen and (max-width:720px) {
+    .orderWrapper {
+        width: 90%;
+    }
+
+    .orderField {
+        height: auto;
+    }
+
+    .orderItems {
+        height: auto;
+    }
+
+    .orderItems>div>span {
+
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+}

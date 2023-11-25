@@ -1,0 +1,20 @@
+.orderSuccess
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+.orderSuccess>svg
+{
+    font-size: 5rem;
+    color: forestgreen;
+}
+.orderSuccess>p
+{
+    font-size: 18px;
+    font-weight: 500;
+    word-break: break-all;
+}

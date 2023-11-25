@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+header
+{
+   background-color: rgb(58, 58, 58);
+   font-family: 'Poppins', sans-serif;
+    --tw-opacity:1;
+ padding: 10px;
+  margin: 0;
+  color: #fff;
+  border: 1px solid #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+}
+.logoImg
+    {
+        width: 15vmax;
+    }
+.overlay
+{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0 10px 0;
+}
+
+.header-content
+{
+   /* max-width: 960px; */
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    justify-content: space-around;
+   padding: 10px;
+}
+.header-content .logo
+{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+}
+.logo .fa
+{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.header-content span
+{
+    font-size: 20px;
+    color: #fff;
+}
+.header-content a
+{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.header-content a:visited
+{
+    
+    color: #fff;
+    
+}
+.links
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.searchbar
+{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 4px;
+}
+.logo .logoText
+{
+    color: rgb(250, 62, 77);
+    font-weight: 600;
+    font-size: 22px;
+}
+.searchbar .close-btn
+{
+    background-color: #f6f7f8;
+   height: 30px;
+   width: 30px;
+   text-align: center;
+   padding: 2px;
+   border: 1px solid #fff;
+   cursor: pointer; 
+}
+.magnify
+{
+    margin-top: 5px;
+}
+.header-content input
+{
+    height: 10px;
+    min-width: 250px;
+    width: 100%;
+    outline: none;
+    text-align: center;
+    margin: auto;
+    color: #000;
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+.btns
+{
+    display: flex;
+    gap: 5px;
+}
+.btns button
+{
+    cursor: pointer;
+    background-color: #f6f7f8;
+    border: 1px solid #323232;
+    color: #323232;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    padding:10px 20px 10px 20px;
+    
+   
+}
+.links>a
+    {
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+.sup
+{
+    background-color: rgb(13, 227, 255);
+    padding: 5px;
+    margin-left: -6px;
+    margin-bottom: -4px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+@media screen and (max-width:720px) {
+    .header-content
+    {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 80%;
+        gap: 20px;
+        flex-wrap: wrap;
+        
+    }
+    .searchbar
+    {
+        display: none;
+    }
+    
+    .logoImg
+    {
+        width: 30vmax;
+    }
+    .btns
+    {
+        display: none;
+    }
+    .links>a
+    {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+}
