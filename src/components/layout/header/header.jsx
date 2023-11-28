@@ -54,21 +54,16 @@ export const Header = () => {
     <marquee  className="overlay" loop="-1">Sale!  Sale!  Sale!  Sale!  Sale!  Sale!  Sale!  Sale!  Sale!  Sale! </marquee>
       <header>
       {
-              header?<Sidebar setHeader={setHeader}/>:<></>
+              header?<Sidebar setHeader={setHeader} categories={categories} setCategory={setCategory} cart={cart}/>:<></>
       }
         <div className="header-content">
           <div className="logo">
             <span class="bars-icon fa fa-bars" aria-hidden="true" onClick={()=>{ setHeader(!header)}}></span>
             
-            {/* <span className='logoText'>Streetwear</span> */}
+            
             <img className='logoImg'  src='https://www.codeswear.com/logo.png'/>
           </div>
-          {/* <div className="searchbar">
-            <input value={search} onChange={(e)=>handleSearch(e)} type="text" />
-            <div className="close-btn">
-            <i class="fa-solid fa-magnifying-glass magnify" ></i>
-            </div>
-          </div> */}
+         
           <div className="links">
             <span style={{cursor:'pointer'}} class="fa-solid fa-bag-shopping" onClick={()=>window.location.href='/cart'}>{cart.length!==0 && <sup className='sup'>{cart.length}</sup>}</span>
             {categories.map((item)=>(

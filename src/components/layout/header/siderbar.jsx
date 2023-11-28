@@ -1,6 +1,7 @@
 import { useSelector } from 'react-redux'
 import './sidebar.css'
-export const Sidebar = ({ setHeader }) => {
+export const Sidebar = ({ setHeader,categories,setCategory,cart }) => {
+
     const { inAuthenticated } = useSelector((state) => state.user)
     return (
         <>
@@ -11,10 +12,11 @@ export const Sidebar = ({ setHeader }) => {
 
                 <div className="sidebar-content">
                     <span class="title">Shop by Category</span>
-                    <a href="">Womens</a>
-                    <a href="">Mens</a>
-                    <a href="">Kids</a>
-                    <a href="">Bags</a>
+                    {categories.map((item)=>(
+              <a href='/product' key={item} onClick={()=>{setCategory(item) 
+                 localStorage.setItem('category',JSON.stringify(item))}}>{item}</a>
+            ))}
+            <span style={{cursor:'pointer'}} class="fa-solid fa-bag-shopping" onClick={()=>window.location.href='/cart'}>{cart.length!==0 && <sup className='sup'>{cart.length}</sup>}</span>
 
                     {
                         inAuthenticated ?

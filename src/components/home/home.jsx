@@ -5,7 +5,7 @@ import Carousel from "react-material-ui-carousel"
 export const Home = () => {
     return (
         <div className="home">
-            <div className="carouselBox">
+            
                 <Carousel className='carousel' navButtonsAlwaysVisible IndicatorIcon={false} autoPlay animation="slide">
                     <img src='https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/banner/6.webp' alt="" />
                     <img src='https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/banner/2.webp' alt="" />
@@ -14,7 +14,7 @@ export const Home = () => {
                     <img src='https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/banner/5.webp' alt="" />
                     <img src='https://codeswear.nyc3.cdn.digitaloceanspaces.com/constants/landing/banner/1.webp' alt="" />
                 </Carousel>
-            </div>
+            
 
             <span className='category'>Categories</span>
             <div className="brands-section">

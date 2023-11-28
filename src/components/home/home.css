@@ -10,7 +10,13 @@
 }
 
 .carousel {
-    margin: auto;
+   width: 100%;
+   margin: auto;
+}
+.carousel img
+{
+    width: 100%;
+    height: 110px;
 }
 
 .brands-section {
@@ -115,7 +121,7 @@
     }
     .carousel
     {
-        overflow: hidden;
+        width: auto;
     }
     
 }
