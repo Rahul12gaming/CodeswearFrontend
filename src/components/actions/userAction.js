@@ -6,7 +6,7 @@ export const LoginUser=(email,password)=>async(dispatch)=>{
     {
         dispatch({type:LOGIN_REQUEST});
         const {data}=await axios.post('https://backend2-sbis.onrender.com/auth/login',{email,password},{withCredentials:true} )
-        
+        localStorage.setItem("token",data.token);
         dispatch({type:LOGIN_SUCCESS,payload:data})
     }
     catch(err)
